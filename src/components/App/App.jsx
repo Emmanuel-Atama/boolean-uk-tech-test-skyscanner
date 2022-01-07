@@ -1,8 +1,6 @@
 import React from 'react';
 import BpkText from 'bpk-component-text';
-
 import Header from '../Header';
-
 import STYLES from './App.scss';
 
 const getClassName = (className) => STYLES[className] || 'UNKNOWN';
